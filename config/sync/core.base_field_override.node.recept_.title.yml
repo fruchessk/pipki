@@ -1,0 +1,18 @@
+uuid: a82f1d99-f9b9-492a-8462-79f1051c6dbb
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.recept_
+id: node.recept_.title
+field_name: title
+entity_type: node
+bundle: recept_
+label: 'Название рецепта '
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

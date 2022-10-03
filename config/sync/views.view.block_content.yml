@@ -1,5 +1,5 @@
 uuid: 46dcaea6-99b0-4a09-a177-6068b6940f45
-langcode: en
+langcode: ru
 status: true
 dependencies:
   module:
@@ -17,7 +17,7 @@ base_field: id
 display:
   default:
     id: default
-    display_title: Default
+    display_title: 'По умолчанию'
     display_plugin: default
     position: 0
     display_options:
@@ -218,7 +218,7 @@ display:
           admin_label: ''
           entity_type: block_content
           plugin_id: entity_operations
-          label: Operations
+          label: Операции
           exclude: false
           alter:
             alter_text: false

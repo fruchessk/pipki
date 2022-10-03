@@ -1,5 +1,5 @@
 uuid: 531237cd-e349-4eab-95b9-dfdc52e808be
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -20,7 +20,7 @@ base_field: nid
 display:
   default:
     id: default
-    display_title: Default
+    display_title: 'По умолчанию'
     display_plugin: default
     position: 0
     display_options:

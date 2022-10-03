@@ -1,0 +1,74 @@
+uuid: eb867510-7ebe-4119-854b-010eb52479fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.recept_.body
+    - field.field.node.recept_.field_dobavlen_
+    - field.field.node.recept_.field_ingredients
+    - field.field.node.recept_.field_url_proizvoditelya_
+    - field.field.node.recept_.field_url_recept_
+    - node.type.recept_
+  module:
+    - image
+    - link
+    - text
+    - user
+id: node.recept_.default
+targetEntityType: node
+bundle: recept_
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_dobavlen_:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_ingredients:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_url_proizvoditelya_:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_url_recept_:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

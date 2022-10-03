@@ -1,0 +1,29 @@
+uuid: a1ca3947-6e0e-4ff2-89ca-e9ee88fbf8e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_dobavlen_
+    - node.type.proizvoditel_
+    - node.type.recept_
+id: node.recept_.field_dobavlen_
+field_name: field_dobavlen_
+entity_type: node
+bundle: recept_
+label: 'Добавлен '
+description: 'Выберите производителя, который предоставил этот рецепт '
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      proizvoditel_: proizvoditel_
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: page
+field_type: entity_reference

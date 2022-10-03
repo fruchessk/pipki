@@ -1,5 +1,5 @@
 uuid: 625a0491-5f65-4cda-a2a7-2d1b2c84f035
-langcode: en
+langcode: ru
 status: true
 dependencies:
   module:
@@ -17,7 +17,7 @@ base_field: wid
 display:
   default:
     id: default
-    display_title: Default
+    display_title: 'По умолчанию'
     display_plugin: default
     position: 0
     display_options:
@@ -29,7 +29,7 @@ display:
           field: nothing
           relationship: none
           group_type: group
-          admin_label: Icon
+          admin_label: Иконка
           plugin_id: custom
           label: ''
           exclude: false
@@ -395,7 +395,7 @@ display:
           group_type: group
           admin_label: ''
           plugin_id: dblog_operations
-          label: Operations
+          label: Операции
           exclude: false
           alter:
             alter_text: false
@@ -457,7 +457,7 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Filter
+          submit_button: Фильтр
           reset_button: true
           reset_button_label: Reset
           exposed_sorts_label: 'Sort by'

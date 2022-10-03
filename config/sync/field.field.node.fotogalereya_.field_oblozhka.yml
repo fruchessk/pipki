@@ -1,0 +1,29 @@
+uuid: 7527ed8f-1bee-4fbf-838c-4b97e32596e4
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_oblozhka
+    - media.type.image
+    - node.type.fotogalereya_
+id: node.fotogalereya_.field_oblozhka
+field_name: field_oblozhka
+entity_type: node
+bundle: fotogalereya_
+label: обложка
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

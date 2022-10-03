@@ -1,0 +1,17 @@
+uuid: 0133eacd-d4c0-4897-8b2e-b8a1672db0b3
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Рецепт
+type: recept_
+description: 'Рецепт, предоставленный производителем '
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

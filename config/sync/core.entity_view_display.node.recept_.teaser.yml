@@ -1,0 +1,39 @@
+uuid: e2b86893-2987-4c89-a9b5-25fcc49b3f5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.recept_.body
+    - field.field.node.recept_.field_dobavlen_
+    - field.field.node.recept_.field_ingredients
+    - field.field.node.recept_.field_url_proizvoditelya_
+    - field.field.node.recept_.field_url_recept_
+    - node.type.recept_
+  module:
+    - text
+    - user
+id: node.recept_.teaser
+targetEntityType: node
+bundle: recept_
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_dobavlen_: true
+  field_ingredients: true
+  field_url_proizvoditelya_: true
+  field_url_recept_: true
+  langcode: true

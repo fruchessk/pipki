@@ -1,0 +1,22 @@
+uuid: 8370f9e0-77a2-461d-99b5-307b672e220a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.proizvoditel_
+id: node.proizvoditel_.promote
+field_name: promote
+entity_type: node
+bundle: proizvoditel_
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

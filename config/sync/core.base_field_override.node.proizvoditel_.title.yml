@@ -1,0 +1,18 @@
+uuid: 055cf9cf-2174-4a38-9496-7ef457cd6f74
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.proizvoditel_
+id: node.proizvoditel_.title
+field_name: title
+entity_type: node
+bundle: proizvoditel_
+label: 'Наименование производителя'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

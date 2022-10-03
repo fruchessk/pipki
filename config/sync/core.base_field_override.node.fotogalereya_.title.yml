@@ -1,0 +1,18 @@
+uuid: 0776c83e-1564-4448-8d1c-82bd549fed7f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.fotogalereya_
+id: node.fotogalereya_.title
+field_name: title
+entity_type: node
+bundle: fotogalereya_
+label: 'Название фотогалереи '
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

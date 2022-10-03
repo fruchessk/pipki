@@ -1,5 +1,5 @@
 uuid: 8882263f-a17e-43ff-9e98-852a8c50d385
-langcode: en
+langcode: ru
 status: true
 dependencies:
   module:
@@ -17,7 +17,7 @@ base_field: fid
 display:
   default:
     id: default
-    display_title: Default
+    display_title: 'По умолчанию'
     display_plugin: default
     position: 0
     display_options:
@@ -66,7 +66,7 @@ display:
           entity_type: file
           entity_field: filename
           plugin_id: field
-          label: Name
+          label: Название
           exclude: false
           alter:
             alter_text: false
@@ -469,7 +469,7 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Filter
+          submit_button: Фильтр
           reset_button: false
           reset_button_label: Reset
           exposed_sorts_label: 'Sort by'

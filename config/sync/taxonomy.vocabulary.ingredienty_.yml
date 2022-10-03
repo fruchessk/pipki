@@ -1,0 +1,8 @@
+uuid: eaa44277-07b5-4f0a-a44c-98eada243e13
+langcode: en
+status: true
+dependencies: {  }
+name: Ингредиенты
+vid: ingredienty_
+description: ''
+weight: 0

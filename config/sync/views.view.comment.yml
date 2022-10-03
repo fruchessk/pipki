@@ -1,5 +1,5 @@
 uuid: 158fa15a-65c8-44dc-a58d-72b7d4b36420
-langcode: en
+langcode: ru
 status: true
 dependencies:
   module:
@@ -8,7 +8,7 @@ dependencies:
 _core:
   default_config_hash: CgXkKY33fd-yaHz89du2hSw6MJOoIeNUJ-VHE5BiSdQ
 id: comment
-label: Comments
+label: Комментарии
 module: comment
 description: 'Find and manage comments.'
 tag: default
@@ -17,11 +17,11 @@ base_field: cid
 display:
   default:
     id: default
-    display_title: Default
+    display_title: 'По умолчанию'
     display_plugin: default
     position: 0
     display_options:
-      title: Comments
+      title: Комментарии
       fields:
         comment_bulk_form:
           id: comment_bulk_form
@@ -413,7 +413,7 @@ display:
           admin_label: ''
           entity_type: comment
           plugin_id: entity_operations
-          label: Operations
+          label: Операции
           exclude: false
           alter:
             alter_text: false
@@ -544,7 +544,7 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Filter
+          submit_button: Фильтр
           reset_button: false
           reset_button_label: Reset
           exposed_sorts_label: 'Sort by'
@@ -730,7 +730,7 @@ display:
           exposed: true
           expose:
             operator_id: langcode_op
-            label: Language
+            label: Язык
             description: ''
             use_operator: false
             operator: langcode_op
@@ -878,7 +878,7 @@ display:
       path: admin/content/comment
       menu:
         type: tab
-        title: Comments
+        title: Комментарии
         description: 'Comments published'
         weight: 0
         menu_name: admin
@@ -1291,7 +1291,7 @@ display:
           admin_label: ''
           entity_type: comment
           plugin_id: entity_operations
-          label: Operations
+          label: Операции
           exclude: false
           alter:
             alter_text: false
@@ -1540,7 +1540,7 @@ display:
           exposed: true
           expose:
             operator_id: langcode_op
-            label: Language
+            label: Язык
             description: ''
             use_operator: false
             operator: langcode_op

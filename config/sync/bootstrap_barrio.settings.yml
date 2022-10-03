@@ -1,5 +1,6 @@
 _core:
   default_config_hash: tUvxXUiLb13cpxShHqanK2DwUCio3KYGgJfOlt3vjEM
+langcode: ru
 favicon:
   use_default: true
 features:

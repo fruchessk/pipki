@@ -1,5 +1,5 @@
 uuid: 2365c356-73cd-42d1-8562-56b9a3cf3635
-langcode: en
+langcode: ru
 status: true
 dependencies:
   module:
@@ -46,7 +46,7 @@ tips:
   views-ui-fields:
     id: views-ui-fields
     plugin: text
-    label: Fields
+    label: Поля
     weight: 5
     selector: .views-ui-display-tab-bucket.field
     body: 'If this view uses fields, they are listed here. You can click on a field to configure it.'
