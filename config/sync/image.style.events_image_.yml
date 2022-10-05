@@ -1,0 +1,15 @@
+uuid: 416a299d-0631-4219-80f2-cd0fcb04f9e0
+langcode: ru
+status: true
+dependencies: {  }
+name: events_image_
+label: 'Events image '
+effects:
+  4485330f-38c2-4e64-bd82-1adcccca26d8:
+    uuid: 4485330f-38c2-4e64-bd82-1adcccca26d8
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 350
+      height: 200
+      anchor: center-center

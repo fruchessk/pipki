@@ -1,0 +1,21 @@
+uuid: 39a3a4ae-28f4-43ad-9764-f9d3a3334348
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_data_
+    - node.type.events
+  module:
+    - datetime
+id: node.events.field_data_
+field_name: field_data_
+entity_type: node
+bundle: events
+label: 'Дата '
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime
