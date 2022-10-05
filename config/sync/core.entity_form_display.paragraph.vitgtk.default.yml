@@ -1,0 +1,47 @@
+uuid: a9494c2c-31a8-4d3c-b0a7-dbc57851aab6
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.vitgtk.field_kartinka
+    - field.field.paragraph.vitgtk.field_teks
+    - field.field.paragraph.vitgtk.field_zagolovok
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.vitgtk
+  module:
+    - image
+    - text
+id: paragraph.vitgtk.default
+targetEntityType: paragraph
+bundle: vitgtk
+mode: default
+content:
+  field_kartinka:
+    type: image_image
+    weight: 1
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_teks:
+    type: text_textarea_with_summary
+    weight: 2
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_zagolovok:
+    type: text_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

@@ -6,8 +6,45 @@ dependencies:
     - field.field.node.proizvoditel_.body
     - node.type.proizvoditel_
   module:
+    - layout_builder
+    - layout_discovery
     - text
     - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          9d08f04c-307d-4a91-9d60-bc0ef5c97146:
+            uuid: 9d08f04c-307d-4a91-9d60-bc0ef5c97146
+            region: content
+            configuration:
+              id: 'extra_field_block:node:proizvoditel_:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 0
+            additional: {  }
+          d4403ac4-0960-4d2c-8023-96fa3d7990fe:
+            uuid: d4403ac4-0960-4d2c-8023-96fa3d7990fe
+            region: content
+            configuration:
+              id: 'field_block:node:proizvoditel_:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+        third_party_settings: {  }
 id: node.proizvoditel_.default
 targetEntityType: node
 bundle: proizvoditel_

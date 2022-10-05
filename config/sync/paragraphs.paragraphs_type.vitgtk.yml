@@ -1,0 +1,10 @@
+uuid: 6fb31950-e925-4d4c-8e65-4b2ac41bff81
+langcode: ru
+status: true
+dependencies: {  }
+id: vitgtk
+label: vitgtk
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,25 +1,20 @@
-uuid: b7782beb-fd1d-439f-8621-b56896e03bd6
+uuid: ee8d0fd6-3576-486c-a345-158888e0c4b6
 langcode: ru
 status: true
 dependencies:
   config:
-    - field.storage.media.field_media_image
-    - media.type.image
+    - field.storage.paragraph.field_kartinka
+    - paragraphs.paragraphs_type.vitgtk
   module:
     - image
-  enforced:
-    module:
-      - media
-_core:
-  default_config_hash: HGRX21ciyn7K-q8KMxsKHQvIB4SHT-A3bqzmNDnGKyc
-id: media.image.field_media_image
-field_name: field_media_image
-entity_type: media
-bundle: image
-label: Изображение
+id: paragraph.vitgtk.field_kartinka
+field_name: field_kartinka
+entity_type: paragraph
+bundle: vitgtk
+label: Картинка
 description: ''
-required: true
-translatable: true
+required: false
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
@@ -29,13 +24,13 @@ settings:
   file_extensions: 'png gif jpg jpeg'
   max_filesize: ''
   max_resolution: ''
-  min_resolution: ''
+  min_resolution: 330x195
   alt_field: true
   alt_field_required: true
   title_field: false
   title_field_required: false
   default_image:
-    uuid: null
+    uuid: ''
     alt: ''
     title: ''
     width: null

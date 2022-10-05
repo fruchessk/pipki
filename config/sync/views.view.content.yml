@@ -8,7 +8,7 @@ dependencies:
 _core:
   default_config_hash: vBKWYGGDoAX-tFd1JErB8tZLSxx3lJ0foouVsgpcbB4
 id: content
-label: Content
+label: Содержимое
 module: node
 description: 'Find and manage content.'
 tag: default
@@ -21,7 +21,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: Content
+      title: Содержимое
       fields:
         node_bulk_form:
           id: node_bulk_form
@@ -163,8 +163,8 @@ display:
           type: boolean
           settings:
             format: custom
-            format_custom_false: Unpublished
-            format_custom_true: Published
+            format_custom_false: 'Снято с публикации'
+            format_custom_true: Опубликовано
         changed:
           id: changed
           table: node_field_data
@@ -251,11 +251,11 @@ display:
         options:
           submit_button: Фильтр
           reset_button: true
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: Сбросить
+          exposed_sorts_label: 'Сортировать по'
           expose_sort_order: true
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          sort_asc_label: 'По возрастанию'
+          sort_desc_label: 'По убыванию'
       access:
         type: perm
         options:
@@ -399,11 +399,11 @@ display:
             default_group_multiple: {  }
             group_items:
               1:
-                title: Published
+                title: Опубликовано
                 operator: '='
                 value: '1'
               2:
-                title: Unpublished
+                title: 'Снято с публикации'
                 operator: '='
                 value: '0'
         langcode:
@@ -585,7 +585,7 @@ display:
       tags: {  }
   page_1:
     id: page_1
-    display_title: Page
+    display_title: Страница
     display_plugin: page
     position: 1
     display_options:
@@ -593,14 +593,14 @@ display:
       path: admin/content/node
       menu:
         type: 'default tab'
-        title: Content
+        title: Содержимое
         description: ''
         weight: -10
         menu_name: admin
         context: ''
       tab_options:
         type: normal
-        title: Content
+        title: Содержимое
         description: 'Find and manage content'
         weight: -10
         menu_name: admin

@@ -1,0 +1,115 @@
+uuid: 91f3d336-3769-4cb8-8fd8-5df175373ff5
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.vitgtk.field_kartinka
+    - field.field.paragraph.vitgtk.field_teks
+    - field.field.paragraph.vitgtk.field_zagolovok
+    - paragraphs.paragraphs_type.vitgtk
+  module:
+    - image
+    - layout_builder
+    - text
+  theme:
+    - bootstrap_barrio
+third_party_settings:
+  layout_builder:
+    enabled: true
+    sections:
+      -
+        layout_id: barrio_col2-equal
+        layout_settings:
+          label: ''
+          context_mapping: {  }
+        components:
+          d591540a-0a0e-44ac-8e8a-e36a29dfdd28:
+            uuid: d591540a-0a0e-44ac-8e8a-e36a29dfdd28
+            region: top
+            configuration:
+              id: 'field_block:paragraph:vitgtk:field_zagolovok'
+              label: Заголовок
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          a1cf5679-98e2-4611-8df7-fff53b19c6f0:
+            uuid: a1cf5679-98e2-4611-8df7-fff53b19c6f0
+            region: first
+            configuration:
+              id: 'field_block:paragraph:vitgtk:field_kartinka'
+              label: Картинка
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: image
+                label: hidden
+                settings:
+                  image_link: ''
+                  image_style: thumbnail
+                  image_loading:
+                    attribute: lazy
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          adba819e-e4f1-4e7e-83cf-0e2f6f5ebf21:
+            uuid: adba819e-e4f1-4e7e-83cf-0e2f6f5ebf21
+            region: second
+            configuration:
+              id: 'field_block:paragraph:vitgtk:field_teks'
+              label: Текст
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+id: paragraph.vitgtk.default
+targetEntityType: paragraph
+bundle: vitgtk
+mode: default
+content:
+  field_kartinka:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_teks:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_zagolovok:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

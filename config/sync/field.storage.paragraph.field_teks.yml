@@ -1,0 +1,19 @@
+uuid: 427d73ff-8ae9-4cc6-b32c-c674984523f7
+langcode: ru
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_teks
+field_name: field_teks
+entity_type: paragraph
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

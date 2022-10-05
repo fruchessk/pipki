@@ -1,0 +1,21 @@
+uuid: b045b519-4c07-4861-b121-c399b5f7dcf0
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_zagolovok
+    - paragraphs.paragraphs_type.vitgtk
+  module:
+    - text
+id: paragraph.vitgtk.field_zagolovok
+field_name: field_zagolovok
+entity_type: paragraph
+bundle: vitgtk
+label: Заголовок
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text
