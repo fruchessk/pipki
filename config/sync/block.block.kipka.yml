@@ -1,0 +1,20 @@
+uuid: 8b206d6c-9ffa-4193-af9b-d48594c3df8e
+langcode: ru
+status: true
+dependencies:
+  module:
+    - custom_features
+  theme:
+    - fruchess
+id: kipka
+theme: fruchess
+region: content
+weight: -2
+provider: null
+plugin: custom_features_kipka
+settings:
+  id: custom_features_kipka
+  label: Kipka
+  label_display: visible
+  provider: custom_features
+visibility: {  }

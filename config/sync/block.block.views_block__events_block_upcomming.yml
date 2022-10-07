@@ -1,0 +1,24 @@
+uuid: 619655d6-572e-4fa4-bc74-c2aa37916405
+langcode: ru
+status: true
+dependencies:
+  config:
+    - views.view.events
+  module:
+    - views
+  theme:
+    - fruchess
+id: views_block__events_block_upcomming
+theme: fruchess
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:events-block_upcomming'
+settings:
+  id: 'views_block:events-block_upcomming'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: '1'
+visibility: {  }

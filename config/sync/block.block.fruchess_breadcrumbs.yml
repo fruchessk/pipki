@@ -1,17 +1,17 @@
-uuid: 262cbec1-20e6-4750-a47d-11998d4f6876
-langcode: en
+uuid: 5dc11a5c-99be-4b64-b2b8-c8f294a0b438
+langcode: ru
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bootstrap_barrio
+    - fruchess
 _core:
   default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
-id: bootstrap_barrio_breadcrumbs
-theme: bootstrap_barrio
+id: fruchess_breadcrumbs
+theme: fruchess
 region: breadcrumb
-weight: 0
+weight: -6
 provider: null
 plugin: system_breadcrumb_block
 settings:

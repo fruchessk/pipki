@@ -1,5 +1,5 @@
-uuid: 8153838f-5b0f-4950-b16f-e209270b51e9
-langcode: en
+uuid: 72451620-9955-4abb-8b5b-b33d6d987c7a
+langcode: ru
 status: true
 dependencies:
   config:
@@ -7,13 +7,13 @@ dependencies:
   module:
     - system
   theme:
-    - bootstrap_barrio
+    - fruchess
 _core:
   default_config_hash: gmxYWWHmgbe0Pnv8y48ZLSLH5mEHejOjAP6RLxUfdzU
-id: bootstrap_barrio_account_menu
-theme: bootstrap_barrio
+id: fruchess_account_menu
+theme: fruchess
 region: secondary_menu
-weight: -4
+weight: -6
 provider: null
 plugin: 'system_menu_block:account'
 settings:

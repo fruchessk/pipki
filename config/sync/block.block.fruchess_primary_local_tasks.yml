@@ -1,15 +1,15 @@
-uuid: f4bed05a-8470-4361-8539-cec42f379a5e
-langcode: en
+uuid: 170600cb-5a8b-4a4d-9d8b-499221fe67ff
+langcode: ru
 status: true
 dependencies:
   theme:
-    - bootstrap_barrio
+    - fruchess
 _core:
   default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
-id: bootstrap_barrio_primary_local_tasks
-theme: bootstrap_barrio
-region: highlighted
-weight: -4
+id: fruchess_primary_local_tasks
+theme: fruchess
+region: content
+weight: -8
 provider: null
 plugin: local_tasks_block
 settings:

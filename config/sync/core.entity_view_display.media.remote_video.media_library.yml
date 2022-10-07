@@ -9,37 +9,6 @@ dependencies:
     - media.type.remote_video
   module:
     - image
-    - layout_builder
-    - layout_discovery
-third_party_settings:
-  layout_builder:
-    enabled: true
-    sections:
-      -
-        layout_id: layout_onecol
-        layout_settings:
-          label: ''
-        components:
-          5ae9f056-3802-4c29-a7ba-16cf108a245a:
-            uuid: 5ae9f056-3802-4c29-a7ba-16cf108a245a
-            region: content
-            configuration:
-              id: 'field_block:media:remote_video:thumbnail'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              formatter:
-                type: image
-                label: hidden
-                settings:
-                  image_link: ''
-                  image_style: medium
-                  image_loading:
-                    attribute: lazy
-                third_party_settings: {  }
-            weight: 0
-            additional: {  }
-        third_party_settings: {  }
 _core:
   default_config_hash: PGGoP-hVkXe_S-GiJRAub4PHDu0KhMExylclrqjdJb4
 id: media.remote_video.media_library

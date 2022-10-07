@@ -6,44 +6,7 @@ dependencies:
     - comment.type.comment
     - field.field.comment.comment.comment_body
   module:
-    - layout_builder
-    - layout_discovery
     - text
-third_party_settings:
-  layout_builder:
-    enabled: true
-    sections:
-      -
-        layout_id: layout_onecol
-        layout_settings:
-          label: ''
-        components:
-          a12e346c-db00-4c5e-89f3-7f3a1587a7a0:
-            uuid: a12e346c-db00-4c5e-89f3-7f3a1587a7a0
-            region: content
-            configuration:
-              id: 'field_block:comment:comment:comment_body'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              formatter:
-                type: text_default
-                label: hidden
-                settings: {  }
-                third_party_settings: {  }
-            weight: 0
-            additional: {  }
-          f8cc8a5a-a7ed-4a5a-a5cf-cb0836c1f9cf:
-            uuid: f8cc8a5a-a7ed-4a5a-a5cf-cb0836c1f9cf
-            region: content
-            configuration:
-              id: 'extra_field_block:comment:comment:links'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-            weight: 1
-            additional: {  }
-        third_party_settings: {  }
 _core:
   default_config_hash: aBQUGsQ46M4048fIlFuTXwl2zV0j2cJX89CTUobh9hA
 id: comment.comment.default

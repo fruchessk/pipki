@@ -1,0 +1,27 @@
+.niz{
+  color: #1C0320;
+  font-family: Montserrat;
+}
+.text-content{
+  font-size: 1.5rem;
+}
+
+.niz-zag{
+  font-weight: 600;
+  line-height: 32px;
+}
+ .niz-block{
+  display: -webkit-box;
+   flex-grow: revert;
+   margin-top: 10px;
+ }
+.niz-block p{
+  line-height: 150%;
+  font-size: 16px;
+  /*font-family: Montserrat;*/
+  text-align: justify;
+  margin-left: 40px;
+}
+
+
+

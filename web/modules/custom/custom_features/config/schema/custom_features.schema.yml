@@ -1,0 +1,15 @@
+block.settings.custom_features_pipka:
+  type: block_settings
+  label: 'Pipka block'
+  mapping:
+    foo:
+      type: string
+      label: Foo
+
+block.settings.custom_features_kipka:
+  type: block_settings
+  label: 'Kipka block'
+  mapping:
+    foo:
+      type: string
+      label: Foo

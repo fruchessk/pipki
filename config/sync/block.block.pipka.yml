@@ -1,0 +1,21 @@
+uuid: f857822d-67e2-48ed-b0a5-ee6188d93e12
+langcode: ru
+status: true
+dependencies:
+  module:
+    - custom_features
+  theme:
+    - fruchess
+id: pipka
+theme: fruchess
+region: sidebar_second
+weight: -3
+provider: null
+plugin: custom_features_pipka
+settings:
+  id: custom_features_pipka
+  label: Pipka
+  label_display: visible
+  provider: custom_features
+  foo: 'Hello world!'
+visibility: {  }

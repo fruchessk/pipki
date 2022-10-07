@@ -1,17 +1,17 @@
-uuid: 9baa3666-0ae3-4a7e-9308-d7ccd6099f6b
-langcode: en
+uuid: 316babf2-be35-4e98-b469-d7cee89b6551
+langcode: ru
 status: true
 dependencies:
   module:
     - search
   theme:
-    - bootstrap_barrio
+    - fruchess
 _core:
   default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
-id: bootstrap_barrio_search_form_wide
-theme: bootstrap_barrio
-region: secondary_menu
-weight: -5
+id: fruchess_search_form_wide
+theme: fruchess
+region: header_form
+weight: -7
 provider: null
 plugin: search_form_block
 settings:

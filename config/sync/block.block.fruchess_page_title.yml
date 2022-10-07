@@ -1,14 +1,14 @@
-uuid: 932c32c4-2c11-47bd-a488-33b3e7513fa9
-langcode: en
+uuid: 4270cc7d-34ed-4a46-a94b-26db2ee71181
+langcode: ru
 status: true
 dependencies:
   theme:
-    - bootstrap_barrio
+    - fruchess
 _core:
   default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
-id: bootstrap_barrio_page_title
-theme: bootstrap_barrio
-region: top_header
+id: fruchess_page_title
+theme: fruchess
+region: content
 weight: -5
 provider: null
 plugin: page_title_block

@@ -11,46 +11,8 @@ dependencies:
     - field.field.node.recept_.field_url_recept_
     - node.type.recept_
   module:
-    - layout_builder
-    - layout_discovery
     - text
     - user
-third_party_settings:
-  layout_builder:
-    enabled: true
-    sections:
-      -
-        layout_id: layout_onecol
-        layout_settings:
-          label: ''
-        components:
-          0d77e029-b5e2-4585-b0ae-9c75a0c2087b:
-            uuid: 0d77e029-b5e2-4585-b0ae-9c75a0c2087b
-            region: content
-            configuration:
-              id: 'extra_field_block:node:recept_:links'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-            weight: 0
-            additional: {  }
-          fa6d7c07-afc7-459c-b521-b038c796bb89:
-            uuid: fa6d7c07-afc7-459c-b521-b038c796bb89
-            region: content
-            configuration:
-              id: 'field_block:node:recept_:body'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              formatter:
-                type: text_summary_or_trimmed
-                label: hidden
-                settings:
-                  trim_length: 600
-                third_party_settings: {  }
-            weight: 1
-            additional: {  }
-        third_party_settings: {  }
 id: node.recept_.teaser
 targetEntityType: node
 bundle: recept_

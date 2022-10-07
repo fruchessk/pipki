@@ -8,62 +8,7 @@ dependencies:
     - node.type.page
   module:
     - entity_reference_revisions
-    - layout_builder
-    - layout_discovery
-    - text
     - user
-third_party_settings:
-  layout_builder:
-    enabled: true
-    sections:
-      -
-        layout_id: layout_onecol
-        layout_settings:
-          label: ''
-        components:
-          d35a5e29-a08a-451a-b3e2-2a43711d3ec8:
-            uuid: d35a5e29-a08a-451a-b3e2-2a43711d3ec8
-            region: content
-            configuration:
-              id: 'field_block:node:page:body'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              formatter:
-                type: text_default
-                label: hidden
-                settings: {  }
-                third_party_settings: {  }
-            weight: 0
-            additional: {  }
-          2bcddb04-4ebf-431f-ab53-5cddf03d78bf:
-            uuid: 2bcddb04-4ebf-431f-ab53-5cddf03d78bf
-            region: content
-            configuration:
-              id: 'extra_field_block:node:page:links'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-            weight: 1
-            additional: {  }
-          9241d727-406c-4ab0-99aa-5b14a5628aa1:
-            uuid: 9241d727-406c-4ab0-99aa-5b14a5628aa1
-            region: content
-            configuration:
-              id: 'field_block:node:page:field_paragraph'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              formatter:
-                type: entity_reference_revisions_entity_view
-                label: hidden
-                settings:
-                  view_mode: default
-                  link: ''
-                third_party_settings: {  }
-            weight: 2
-            additional: {  }
-        third_party_settings: {  }
 _core:
   default_config_hash: M_Y8L5tfmhx7DR143E05YyZSpvgil6VFvqcfBWykalg
 id: node.page.default
@@ -71,13 +16,6 @@ targetEntityType: node
 bundle: page
 mode: default
 content:
-  body:
-    type: text_default
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    weight: 100
-    region: content
   field_paragraph:
     type: entity_reference_revisions_entity_view
     label: hidden
@@ -85,12 +23,9 @@ content:
       view_mode: default
       link: ''
     third_party_settings: {  }
-    weight: 102
-    region: content
-  links:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 101
+    weight: 0
     region: content
 hidden:
+  body: true
   langcode: true
+  links: true

@@ -1,0 +1,6 @@
+name: Custom features
+description: Custom features description
+package: Custom
+
+type: module
+core_version_requirement: ^9

@@ -9,46 +9,8 @@ dependencies:
     - field.field.node.fotogalereya_.field_oblozhka
     - node.type.fotogalereya_
   module:
-    - layout_builder
-    - layout_discovery
     - text
     - user
-third_party_settings:
-  layout_builder:
-    enabled: true
-    sections:
-      -
-        layout_id: layout_onecol
-        layout_settings:
-          label: ''
-        components:
-          e18ed796-ee48-4370-8a88-60335edfc2e2:
-            uuid: e18ed796-ee48-4370-8a88-60335edfc2e2
-            region: content
-            configuration:
-              id: 'extra_field_block:node:fotogalereya_:links'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-            weight: 0
-            additional: {  }
-          d53ab868-e728-4704-9b6f-b84b15ae7c3c:
-            uuid: d53ab868-e728-4704-9b6f-b84b15ae7c3c
-            region: content
-            configuration:
-              id: 'field_block:node:fotogalereya_:body'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              formatter:
-                type: text_summary_or_trimmed
-                label: hidden
-                settings:
-                  trim_length: 600
-                third_party_settings: {  }
-            weight: 1
-            additional: {  }
-        third_party_settings: {  }
 id: node.fotogalereya_.teaser
 targetEntityType: node
 bundle: fotogalereya_

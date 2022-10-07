@@ -1,0 +1,7 @@
+example.content:
+  path: '/custom_features'
+  defaults:
+    _controller: '\Drupal\custom_features\Controller\ExampleController::content'
+    _title: 'Hello World'
+  requirements:
+    _permission: 'access content'
