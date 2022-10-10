@@ -13,3 +13,19 @@ block.settings.custom_features_kipka:
     foo:
       type: string
       label: Foo
+
+block.settings.custom_features_user:
+  type: block_settings
+  label: 'User block'
+  mapping:
+    foo:
+      type: string
+      label: Foo
+
+block.settings.custom_features_lox:
+  type: block_settings
+  label: 'Lox block'
+  mapping:
+    foo:
+      type: string
+      label: Foo

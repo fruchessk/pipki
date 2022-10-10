@@ -11,7 +11,7 @@ _core:
 id: fruchess_help
 theme: fruchess
 region: content
-weight: -6
+weight: -7
 provider: null
 plugin: help_block
 settings:

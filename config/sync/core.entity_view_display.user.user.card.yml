@@ -1,8 +1,9 @@
-uuid: e94ecf33-c706-45d5-9259-59dbd1aa3d9a
+uuid: ce106236-4201-46dc-9b43-74a80b097ee7
 langcode: ru
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.user.card
     - field.field.user.user.field_cities
     - field.field.user.user.field_telephone
     - field.field.user.user.user_picture
@@ -11,10 +12,10 @@ dependencies:
     - user
 _core:
   default_config_hash: mZLyuWM9CQx2ZJVqFGSbzgFnHzudVbHBYmdU256A5Wk
-id: user.user.default
+id: user.user.card
 targetEntityType: user
 bundle: user
-mode: default
+mode: card
 content:
   field_cities:
     type: entity_reference_label

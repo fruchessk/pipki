@@ -1,0 +1,8 @@
+uuid: 306e96b4-94d6-4198-bc0b-af8c6c0fd93e
+langcode: ru
+status: true
+dependencies: {  }
+name: Cities
+vid: cities
+description: ''
+weight: 0

@@ -1,0 +1,22 @@
+uuid: ed960849-618e-4130-8d75-b52eb0d504a1
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_cities
+  module:
+    - user
+id: user.user.field_cities
+field_name: field_cities
+entity_type: user
+bundle: user
+label: Cities
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings: {  }
+field_type: entity_reference

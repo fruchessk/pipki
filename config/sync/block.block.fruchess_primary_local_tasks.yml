@@ -9,7 +9,7 @@ _core:
 id: fruchess_primary_local_tasks
 theme: fruchess
 region: content
-weight: -8
+weight: -3
 provider: null
 plugin: local_tasks_block
 settings:
