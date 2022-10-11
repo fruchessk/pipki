@@ -1,0 +1,4 @@
+services:
+  custom_features.get_lox:
+    class: Drupal\custom_features\MyService
+    arguments: ['@entity_type.manager']

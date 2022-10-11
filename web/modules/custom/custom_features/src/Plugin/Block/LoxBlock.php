@@ -28,7 +28,7 @@ class LoxBlock extends BlockBase {
     $user = $this->getContextValue('user');
 
     $build['content'] = [
-      'markup' => $this->t('kklk'),
+      '#markup' => $this->t('kklk'),
     ];
 
     return $build;
