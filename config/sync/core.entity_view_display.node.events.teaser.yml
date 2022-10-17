@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.events.body
     - field.field.node.events.field_data_
     - field.field.node.events.field_izobrazhenie_events
+    - field.field.node.events.field_tags
     - image.style.events_image_
     - node.type.events
   module:
@@ -45,4 +46,5 @@ content:
     region: content
 hidden:
   body: true
+  field_tags: true
   langcode: true

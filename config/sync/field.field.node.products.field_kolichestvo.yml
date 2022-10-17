@@ -1,0 +1,25 @@
+uuid: 580f5345-ad89-469c-8297-730a1d05db44
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_kolichestvo
+    - node.type.products
+id: node.products.field_kolichestvo
+field_name: field_kolichestvo
+entity_type: node
+bundle: products
+label: Количество
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

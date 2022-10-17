@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.events.body
     - field.field.node.events.field_data_
     - field.field.node.events.field_izobrazhenie_events
+    - field.field.node.events.field_tags
     - image.style.events_image_
     - node.type.events
   module:
@@ -44,6 +45,14 @@ content:
         attribute: lazy
     third_party_settings: {  }
     weight: 102
+    region: content
+  field_tags:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 104
     region: content
   links:
     settings: {  }

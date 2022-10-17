@@ -31,7 +31,7 @@ class MyService {
    * @return float
    */
   public function getLox() {
-    $count = 0;
+    $summary = 0;
     /**
      * @var ContentEntityStorageInterface $storage
      */
@@ -45,11 +45,11 @@ class MyService {
     $entities = $storage->loadMultiple($idsOfEntities);
 
     foreach ($entities as $product) {
-      $price = $product->get('field_kolichestvo')->value;
-      $count = $product->get('field_cena')->value;
-      $count += $price * $count;
+      $price = $product->get('field_cena')->value;
+      $count = $product->get('field_kolichestvo')->value;
+      $summary += $price * $count;
     }
-    return $count;
+    return $summary;
   }
 
 }

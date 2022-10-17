@@ -1,0 +1,23 @@
+uuid: 34cfd395-61d9-4355-91ac-4357ea574fb2
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.products
+  module:
+    - text
+id: node.products.body
+field_name: body
+entity_type: node
+bundle: products
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

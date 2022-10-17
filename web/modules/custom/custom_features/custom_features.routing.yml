@@ -5,3 +5,19 @@ example.content:
     _title: 'Hello World'
   requirements:
     _permission: 'access content'
+
+custom_features.config:
+  path: '/custom-features/config'
+  defaults:
+    _title: 'Config'
+    _form: 'Drupal\custom_features\Form\ConfigForm'
+  requirements:
+    _permission: 'access content'
+
+custom_features.settings:
+  path: '/admin/config/system/settings'
+  defaults:
+    _title: 'Settings'
+    _form: 'Drupal\custom_features\Form\SettingsForm'
+  requirements:
+    _permission: 'administer site configuration'

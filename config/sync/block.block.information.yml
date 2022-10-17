@@ -1,4 +1,4 @@
-uuid: 0ee98b25-2065-49d3-8e39-ac1a06dc9173
+uuid: 5ce896e3-3d13-4487-96d2-83c4607bc2cf
 langcode: ru
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
 id: information
 theme: fruchess
 region: content
-weight: -2
+weight: 0
 provider: null
 plugin: custom_features_information
 settings:

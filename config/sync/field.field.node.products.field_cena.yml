@@ -1,0 +1,25 @@
+uuid: e8c1a103-2194-4c7c-8da3-66c101d943f3
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cena
+    - node.type.products
+id: node.products.field_cena
+field_name: field_cena
+entity_type: node
+bundle: products
+label: Цена
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: !!float 0
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

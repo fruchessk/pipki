@@ -1,21 +1,18 @@
-uuid: 69b1c6f2-82cc-4077-b689-e598740cc587
+uuid: 00a1a9a5-1bed-4689-b482-fba33be90cb6
 langcode: ru
 status: true
 dependencies:
   config:
-    - field.field.node.events.body
-    - field.field.node.events.field_data_
-    - field.field.node.events.field_izobrazhenie_events
-    - field.field.node.events.field_tags
-    - node.type.events
+    - field.field.node.products.body
+    - field.field.node.products.field_cena
+    - field.field.node.products.field_kolichestvo
+    - node.type.products
   module:
-    - datetime
-    - media_library
     - path
     - text
-id: node.events.default
+id: node.products.default
 targetEntityType: node
-bundle: events
+bundle: products
 mode: default
 content:
   body:
@@ -34,27 +31,18 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_data_:
-    type: datetime_default
+  field_cena:
+    type: number
     weight: 123
     region: content
-    settings: {  }
+    settings:
+      placeholder: ''
     third_party_settings: {  }
-  field_izobrazhenie_events:
-    type: media_library_widget
+  field_kolichestvo:
+    type: number
     weight: 122
     region: content
     settings:
-      media_types: {  }
-    third_party_settings: {  }
-  field_tags:
-    type: entity_reference_autocomplete_tags
-    weight: 124
-    region: content
-    settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
       placeholder: ''
     third_party_settings: {  }
   langcode:
